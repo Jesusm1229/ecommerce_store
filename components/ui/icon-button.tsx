@@ -13,9 +13,9 @@ const IconButton: React.FC<IconButtonProps> = ({
   icon,
   className
 }) => {
-  return ( 
-    <button 
-      onClick={onClick} 
+  return (
+    <button
+      onClick={onClick}
       className={cn(
         'rounded-full flex items-center justify-center bg-white border shadow-md p-2 hover:scale-110 transition',
         className
@@ -23,7 +23,7 @@ const IconButton: React.FC<IconButtonProps> = ({
     >
       {icon}
     </button>
-   );
+  );
 }
 
 export default IconButton;
